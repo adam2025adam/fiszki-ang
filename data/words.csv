@@ -1,293 +1,294 @@
-kategoria,ang,pl,
-GENERAL,shortfall,niedobór,vocab
-GENERAL,shortcomings,niedociągnięcia,vocab
-GENERAL,under-utilised,niewykorzystany,vocab
-GENERAL,reluctant,niechętny,vocab
-GENERAL,nudge,szturchnąć / zachęcić,vocab
-GENERAL,innegable (innegible?),niezaprzeczalny,vocab
-GENERAL,inquire,pytać / zadawać pytania,vocab
-GENERAL,look into,zbadać,verb
-GENERAL,put off,przełożyć,phrasal verb
-GENERAL,carry on,kontynuować,phrasal verb
-GENERAL,set objectives,ustawić cele,phrasal verb
-GENERAL,tight deadline,krótki deadline,expression
-POLITICS,stay within the budget,zmieścić się w budżecie,expression
-POLITICS,tackle,zmierzyć się z,expression
-POLITICS,call for,żądać / wymagać,verb
-POLITICS,shifting the blame,przerzucanie winy,phrasal verb
-POLITICS,address me,zwrócić się do mnie,expression
-POLITICS,allocate resources,przydzielić zasoby,expression
-POLITICS,bridge the gap,wypełnić lukę,expression
-POLITICS,shape policy,kształtować politykę,expression
-POLITICS,set regulations and budget,ustalić regulacje i budżet,expression
-POLITICS,tackle corruption,zwalczać korupcję,expression
-POLITICS,enforce regulations,egzekwować regulacje,expression
-POLITICS,stand up for the rights,bronić praw,expression
-POLITICS,promote the development,promować rozwój,expression
-GENERAL,livestock,inwentarz,noun
-GENERAL,restore,przywrócić,verb
-GENERAL,culling,reducing the number of animals,verb
-POLITICS,risk assessment,ocena ryzyka,expression
-POLITICS,assess the risk,ocenić ryzyko,expression
-POLITICS,remote region,odległy region,expression
-POLITICS,I'm against any form of ...,jestem przeciwko każdej formie,expression
-DISCUSION,No one would disagree with ...,nikt by się nie nie zgodził z,expression
-DISCUSION,I'd be surprised if that was the case,zdziwiłbym się gdyby tak było,expression
-DISCUSION,On the face of it,wydaje się że,expression
-DISCUSION,acknowledge,uznać / rozpoznać,verb
-DISCUSION,dismantle,rozebrać na części,verb
-DISCUSION,surpass expectation,przewyższyć oczekiwania,verb
-DISCUSION,biased,stronniczy,adjective
-DISCUSION,tune in,dostosować się / wczuć się,adjective
-DISCUSION,outrageous,skandaliczny,adjective
-DISCUSION,impose,narzucać,verb
-DISCUSION,thorough,dokładny / skrupulatny,adjective
-GENERAL,rummaging,grzebanie,noun
-GENERAL,flourish,rozkwitać,verb
-GENERAL,bloom,rozkwitać,verb
-GENERAL,thrive,rozwijać się,verb
-GENERAL,vigilant,czujny,adjective
-GENERAL,a thriving business,rozwijający się biznes,expression
-DISCUSION,reigniting a fierce debate,rozpętać gorącą debatę,expression
-GENERAL,caution / warned,uważać / być ostrzeżonym,adjective
-LAW,sue,pozwać,verb
-LAW,damages,odszkodowanie finansowe,noun
-LAW,claim,twierdzić / pozew,noun/verb
-LAW,claiment,twierdzenie,
-LAW,accused,oskarżony,noun
-LAW,defendant,pozwany,noun
-LAW,ruling,postanowienie sądu,noun
-LAW,you are bound by the contract,jesteśmy związani kontraktem,
-LAW,plagiarism,plagiat,
-LAW,nuisance,niedogodność,noun
-LAW,offence,wykroczenie,noun
-LAW,obstruct,utrudnić / przeszkodzić,verb
-LAW,minor,niepełnoletni,adjective
-LAW,sentence,wyrok / skazać,noun/verb
-LAW,convicted,skazany,adjective
-LAW,convicts,skazańcy,noun
-LAW,moat,fosa,noun
-LAW,dismissed,zwolniony,adjective
-LAW,linger,pozostać,verb
-LAW,depenalised,zdekryminalizować,
-LAW,plight,trudna sytuacja,noun
-LAW,plausible,wiarygodny / sensowny,adjective
-LAW,lost cause,przegrana sprawa,
-LAW,objection,sprzeciw,
-LAW,your honor,wysoki sądzie,
-LAW,sustained,podtrzymuję,
-LAW,overruled,odrzucony,
-LAW,trial,proces,
-LAW,admit ,przyznać,
-LAW,harmless,niegroźny,
-LAW,unharmed,nietknięty,
-GENERAL,fade,zanikać / blednąć,
-GENERAL,intimidate,zastraszać / onieśmielać,
-LAW,infringe,naruszać / łamać,
-LAW,for the sake of…,dla dobra… / ze względu na…,
-LAW,proportionately,proporcjonalnie,
-LAW,revenge,zemsta,
-LAW,re-socialise,resocjalizować,
-GENERAL,come to terms with…,pogodzić się z czymś,
-DISCUSION,we should look at the bigger picture,powinniśmy spojrzeć na szerszy obraz sytuacji,
-POLITICS,policy,polityka / zasady postępowania,
-DISCUSION,what’s your stance?,jakie jest twoje stanowisko?,
-POLITICS,carbon footprint,ślad węglowy,
-GENERAL,superior,lepszy / nadrzędny,
-GENERAL,inferior,gorszy / podrzędny,
-GENERAL,resent,mieć urazę / czuć żal,
-DISCUSION,valid point,trafny argument,
-GENERAL,vitamin deficiency,niedobór witamin,
-GENERAL,maintain a balanced diet,utrzymywać zbilansowaną dietę,
-DISCUSION,that goes without saying,to jest oczywiste,
-DISCUSION,to some extent,do pewnego stopnia,
-GENERAL,inconsiderate,nieuprzejmy / bezmyślny wobec innych,
-GENERAL,immunological diseases,choroby immunologiczne,
-GENERAL,participate,uczestniczyć,
-GENERAL,maintain,utrzymywać / podtrzymywać,
-DISCUSION,take sth. into account,brać coś pod uwagę,
-DISCUSION,personality clashes,konflikty charakterów,
-DISCUSION,survey,ankieta / badanie / sondaż,
-GENERAL,match,dopasować / pasować,
-GENERAL,infighting,wewnętrzne konflikty / walki wewnętrzne,
-LAW,forced eviction,przymusowa eksmisja,
-LAW,last resort,ostateczność / ostatnia deska ratunku,
-GENERAL,problems solved,rozwiązane problemy,
-GENERAL,problems resolved,rozwiązane problemy / konflikty zażegnane,
-GENERAL,flair,smykałka / talent,
-GENERAL,offset by,równoważony przez,
-GENERAL,positively averse,wyjątkowo niechętny,
-GENERAL,needy,wymagający uwagi,
-GENERAL,time-consuming,czasochłonny,
-GENERAL,evolved specifically for this purpose,ewoluował specjalnie w tym celu,
-GENERAL,barely human,ledwo ludzki / nieludzki,
-GENERAL,acclimatized to,przyzwyczajony do,
-GENERAL,emotionally defective,emocjonalnie wybrakowany,
-GENERAL,inheritance,spadek,
-GENERAL,donkey sanctuary,schronisko dla osłów,
-GENERAL,profoundly cynical,głęboko cyniczny,
-GENERAL,let somebody down,zawieść kogoś,
-GENERAL,soft option,łatwe wyjście,
-GENERAL,partial way,wybiórczy sposób,
-GENERAL,frolicking,beztrosko bawiący się,
-GENERAL,without a second thought,bez zastanowienia,
-GENERAL,sentimentality,sentymentalizm,
-GENERAL,cynical,cyniczny,
-GENERAL,gorgeous balls of fluff,urocze kulki futra,
-GENERAL,litter tray,kuweta,
-GENERAL,infestation,plaga / inwazja,
-GENERAL,obsessed with,mieć obsesję na punkcie,
-GENERAL,attacked or bitten by,zostać zaatakowanym lub pogryzionym przez,
-GENERAL,allergic to bee or wasp stings,uczulony na użądlenia pszczół lub os,
-GENERAL,shellfish,owoce morza / skorupiaki,
-IDIOM,like water off a duck’s back,spływa po kimś jak po kaczce,
-IDIOM,like a fish out of water,czuć się jak ryba bez wody,
-IDIOM,don’t count your chickens before they hatch,nie chwal dnia przed zachodem słońca,
-IDIOM,dark horse,czarny koń / ktoś tajemniczy,
-IDIOM,the lion’s share,lwia część,
-IDIOM,smell a rat,wyczuwać podstęp,
-IDIOM,kill two birds with one stone,upiec dwie pieczenie na jednym ogniu,
-IDIOM,bark is worse than bite,ktoś więcej grozi niż robi,
-IDIOM,tail between his legs,ze spuszczonym ogonem / zawstydzony,
-IDIOM,cute as a kitten,słodki jak kotek,
-IDIOM,rest in peace,spoczywaj w pokoju,
-IDIOM,a soft option,łatwizna / łatwe rozwiązanie,
-GENERAL,appreciate the opportunity,doceniać możliwość,
-GENERAL,tiring and stressful,męczący i stresujący,
-GENERAL,affect personal life,wpływać na życie prywatne,
-GENERAL,venue,miejsce wydarzenia,
-GENERAL,facilities,udogodnienia / zaplecze,
-GENERAL,excursion,wycieczka,
-GENERAL,conference venue,miejsce konferencji,
-GENERAL,off-limits,niedostępny / zakazany,
-GENERAL,freshen up,odświeżyć się,
-GENERAL,show somebody around,oprowadzić kogoś,
-GENERAL,drop somebody off,podrzucić / odstawić kogoś,
-GENERAL,look around,rozejrzeć się,
-GENERAL,meet up with,spotkać się z,
-GENERAL,get around the site,poruszać się po obiekcie,
-GENERAL,clear it with Facilities,uzgodnić to z administracją,
-LAW,punishment,kara,
-LAW,prison sentence,wyrok więzienia,
-LAW,deterrent,środek odstraszający,
-LAW,offence,przestępstwo,
-LAW,plead guilty,przyznać się do winy,
-LAW,plead not guilty,nie przyznać się do winy,
-LAW,defendant,oskarżony,
-LAW,serial offender,recydywista / seryjny przestępca,
-LAW,mitigating circumstances,okoliczności łagodzące,
-LAW,diminished responsibility,ograniczona poczytalność,
-LAW,non-custodial sentence,kara bez pozbawienia wolności,
-LAW,fine,grzywna,
-LAW,community service,prace społeczne,
-LAW,custodial sentence,kara więzienia,
-LAW,life sentence,kara dożywocia,
-LAW,capital punishment,kara śmierci,
-LAW,death penalty,kara śmierci,
-LAW,abolished,zniesiony,
-LAW,execute someone,wykonać egzekucję na kimś,
-LAW,war crimes,zbrodnie wojenne,
-LAW,electric chair,krzesło elektryczne,
-LAW,hanging,powieszenie,
-LAW,lethal injection,śmiertelny zastrzyk,
-LAW,inmate,więzień / osadzony,
-LAW,prison officer,funkcjonariusz więzienny,
-LAW,solitary confinement,izolatka,
-LAW,convicted,skazany,
-LAW,maximum security prison,więzienie o zaostrzonym rygorze,
-LAW,locked up,zamknięty / osadzony,
-LAW,surveillance,nadzór / monitoring,
-LAW,open prison,więzienie otwarte,
-LAW,rehabilitation,resocjalizacja,
-LAW,reoffend,popełnić przestępstwo ponownie,
-LAW,maintain order,utrzymywać porządek,
-LAW,deprived of recreation,pozbawiony rozrywki,
-LAW,parole,zwolnienie warunkowe,
-LAW,electronic tag,elektroniczna bransoletka,
-LAW,reintegrate into society,ponownie zintegrować się ze społeczeństwem,
-LAW,retrial,ponowny proces,
-LAW,wrongfully convicted,niesłusznie skazany,
-LAW,pardon,ułaskawienie,
-LAW,sentence is quashed,wyrok zostaje unieważniony,
-LAW,compensation,odszkodowanie,
-LAW,appeal system,system apelacyjny,
-LAW,criminal record,kartoteka kryminalna,
-LAW,commit a crime,popełnić przestępstwo,
-LAW,be released early,zostać zwolnionym wcześniej,
-LAW,abide by conditions,przestrzegać warunków,
-LAW,substantial compensation,wysokie odszkodowanie,
-LAW,trial,proces sądowy,
-LAW,allegations,pomówienia / oskarżenia,
-LAW,the parties,strony w procesie,
-LAW,the audience,widownia na sali sądowej,
-LAW,the accused,oskarżony,
-LAW,the court,sąd,
-LAW,to accuse somebody of something,oskarżyć kogoś o coś,
-LAW,courtroom,sala sądowa,
-LAW,defend,bronić,
-LAW,jury,ława przysięgłych,
-LAW,defendant,oskarżony / pozwany,
-LAW,verdict,werdykt,
-LAW,solicitor,adwokat / radca prawny,
-LAW,advocate,adwokat / obrońca,
-LAW,barrister,adwokat występujący przed sądem,
-LAW,sentence,wyrok,
-LAW,prosecutor,oskarżyciel / prokurator,
-LAW,to sentence somebody,skazać kogoś,
-LAW,to prosecute,oskarżać / ścigać prawnie,
-LAW,standing regulations,obowiązujące przepisy,
-LAW,witness,świadek,
-LAW,complaint,skarga,
-LAW,to examine a witness,przesłuchiwać świadka,
-LAW,to complain,skarżyć się / użalać się,
-LAW,to hear a case,wysłuchać sprawy,
-LAW,cassation office,urząd kasacyjny,
-LAW,to file a motion,złożyć wniosek,
-LAW,request,prośba / wniosek,
-LAW,to sue somebody,pozwać kogoś,
-LAW,groundless,bezpodstawny,
-LAW,charge somebody with something,oskarżyć kogoś o coś / postawić zarzuty,
-LAW,justification,uzasadnienie,
-LAW,charges,zarzuty,
-LAW,to pronounce the sentence,ogłosić wyrok,
-GENERAL,bond with,zżyć się z / nawiązać więź z,
-GENERAL,aversion to,niechęć do,
-GENERAL,single people,samotni ludzie,
-GENERAL,divorcees,rozwodnicy,
-GENERAL,enthusiastic crowds,entuzjastyczne tłumy,
-GENERAL,sarcastic,sarkastyczny,
-IDIOM,get the wrong end of the stick,źle coś zrozumieć,
-IDIOM,get the impression,odnieść wrażenie,
-IDIOM,get on somebody’s nerves,działać komuś na nerwy,
-IDIOM,get the message,domyślić się aluzji / zrozumieć przekaz,
-IDIOM,get your own way,postawić na swoim,
-IDIOM,get anywhere with something,robić postępy w czymś,
-IDIOM,get a life,ogarnąć się / znaleźć sobie życie,
-IDIOM,get on like a house on fire,świetnie się dogadywać,
-IDIOM,get your act together,wziąć się w garść,
-IDIOM,get a move on,pospieszyć się,
-IDIOM,get on with,kontynuować / zabrać się za,
-IDIOM,get away with,ujść komuś na sucho,
-IDIOM,get behind with,mieć zaległości,
-IDIOM,get out of,wykręcić się od,
-IDIOM,get somebody down,przygnębiać kogoś,
-IDIOM,get over,otrząsnąć się po czymś,
-IDIOM,get through to somebody,dotrzeć do kogoś,
-IDIOM,get by on,utrzymać się za,
-IDIOM,get back to somebody,oddzwonić / wrócić do kogoś z odpowiedzią,
-IDIOM,get together with,zejść się / zacząć być razem,
-IDIOM,get into,dostać się do / zacząć karierę w,
-IDIOM,get your eyes tested,zbadać wzrok,
-IDIOM,get something delivered,mieć coś dostarczone,
-IDIOM,get something stolen,mieć coś skradzione,
-IDIOM,get hurt in a crash,zostać rannym w wypadku,
-IDIOM,get into trouble,wpaść w kłopoty,
-IDIOM,get hold of somebody,skontaktować się z kimś,
-IDIOM,get rid of,pozbyć się,
-IDIOM,get out of the way,zejść z drogi,
-IDIOM,get the wrong end of the stick,źle coś zrozumieć,
-IDIOM,get the chance,dostać szansę,
-IDIOM,get the joke,zrozumieć żart,
-IDIOM,get his own back,odegrać się / zemścić się,
-IDIOM,get to know somebody,poznać kogoś lepiej,
-IDIOM,get the impression,odnieść wrażenie,
+id,kategoria,ang,pl
+0,TEST,test ang,test pl
+1,GENERAL,shortfall,niedobór
+2,GENERAL,shortcomings,niedociągnięcia
+3,GENERAL,under-utilised,niewykorzystany
+4,GENERAL,reluctant,niechętny
+5,GENERAL,nudge,szturchnąć / zachęcić
+6,GENERAL,innegable (innegible?),niezaprzeczalny
+7,GENERAL,inquire,pytać / zadawać pytania
+8,GENERAL,look into,zbadać
+9,GENERAL,put off,przełożyć
+10,GENERAL,carry on,kontynuować
+11,GENERAL,set objectives,ustawić cele
+12,GENERAL,tight deadline,krótki deadline
+13,POLITICS,stay within the budget,zmieścić się w budżecie
+14,POLITICS,tackle,zmierzyć się z
+15,POLITICS,call for,żądać / wymagać
+16,POLITICS,shifting the blame,przerzucanie winy
+17,POLITICS,address me,zwrócić się do mnie
+18,POLITICS,allocate resources,przydzielić zasoby
+19,POLITICS,bridge the gap,wypełnić lukę
+20,POLITICS,shape policy,kształtować politykę
+21,POLITICS,set regulations and budget,ustalić regulacje i budżet
+22,POLITICS,tackle corruption,zwalczać korupcję
+23,POLITICS,enforce regulations,egzekwować regulacje
+24,POLITICS,stand up for the rights,bronić praw
+25,POLITICS,promote the development,promować rozwój
+26,GENERAL,livestock,inwentarz
+27,GENERAL,restore,przywrócić
+28,GENERAL,culling,reducing the number of animals
+29,POLITICS,risk assessment,ocena ryzyka
+30,POLITICS,assess the risk,ocenić ryzyko
+31,POLITICS,remote region,odległy region
+32,POLITICS,I'm against any form of ...,jestem przeciwko każdej formie
+33,DISCUSION,No one would disagree with ...,nikt by się nie nie zgodził z
+34,DISCUSION,I'd be surprised if that was the case,zdziwiłbym się gdyby tak było
+35,DISCUSION,On the face of it,wydaje się że
+36,DISCUSION,acknowledge,uznać / rozpoznać
+37,DISCUSION,dismantle,rozebrać na części
+38,DISCUSION,surpass expectation,przewyższyć oczekiwania
+39,DISCUSION,biased,stronniczy
+40,DISCUSION,tune in,dostosować się / wczuć się
+41,DISCUSION,outrageous,skandaliczny
+42,DISCUSION,impose,narzucać
+43,DISCUSION,thorough,dokładny / skrupulatny
+44,GENERAL,rummaging,grzebanie
+45,GENERAL,flourish,rozkwitać
+46,GENERAL,bloom,rozkwitać
+47,GENERAL,thrive,rozwijać się
+48,GENERAL,vigilant,czujny
+49,GENERAL,a thriving business,rozwijający się biznes
+50,DISCUSION,reigniting a fierce debate,rozpętać gorącą debatę
+51,GENERAL,caution / warned,uważać / być ostrzeżonym
+52,LAW,sue,pozwać
+53,LAW,damages,odszkodowanie finansowe
+54,LAW,claim,twierdzić / pozew
+55,LAW,claiment,twierdzenie
+56,LAW,accused,oskarżony
+57,LAW,defendant,pozwany
+58,LAW,ruling,postanowienie sądu
+59,LAW,you are bound by the contract,jesteśmy związani kontraktem
+60,LAW,plagiarism,plagiat
+61,LAW,nuisance,niedogodność
+62,LAW,offence,wykroczenie
+63,LAW,obstruct,utrudnić / przeszkodzić
+64,LAW,minor,niepełnoletni
+65,LAW,sentence,wyrok / skazać
+66,LAW,convicted,skazany
+67,LAW,convicts,skazańcy
+68,LAW,moat,fosa
+69,LAW,dismissed,zwolniony
+70,LAW,linger,pozostać
+71,LAW,depenalised,zdekryminalizować
+72,LAW,plight,trudna sytuacja
+73,LAW,plausible,wiarygodny / sensowny
+74,LAW,lost cause,przegrana sprawa
+75,LAW,objection,sprzeciw
+76,LAW,your honor,wysoki sądzie
+77,LAW,sustained,podtrzymuję
+78,LAW,overruled,odrzucony
+79,LAW,trial,proces
+80,LAW,admit ,przyznać
+81,LAW,harmless,niegroźny
+82,LAW,unharmed,nietknięty
+83,GENERAL,fade,zanikać / blednąć
+84,GENERAL,intimidate,zastraszać / onieśmielać
+85,LAW,infringe,naruszać / łamać
+86,LAW,for the sake of…,dla dobra… / ze względu na…
+87,LAW,proportionately,proporcjonalnie
+88,LAW,revenge,zemsta
+89,LAW,re-socialise,resocjalizować
+90,GENERAL,come to terms with…,pogodzić się z czymś
+91,DISCUSION,we should look at the bigger picture,powinniśmy spojrzeć na szerszy obraz sytuacji
+92,POLITICS,policy,polityka / zasady postępowania
+93,DISCUSION,what’s your stance?,jakie jest twoje stanowisko?
+94,POLITICS,carbon footprint,ślad węglowy
+95,GENERAL,superior,lepszy / nadrzędny
+96,GENERAL,inferior,gorszy / podrzędny
+97,GENERAL,resent,mieć urazę / czuć żal
+98,DISCUSION,valid point,trafny argument
+99,GENERAL,vitamin deficiency,niedobór witamin
+100,GENERAL,maintain a balanced diet,utrzymywać zbilansowaną dietę
+101,DISCUSION,that goes without saying,to jest oczywiste
+102,DISCUSION,to some extent,do pewnego stopnia
+103,GENERAL,inconsiderate,nieuprzejmy / bezmyślny wobec innych
+104,GENERAL,immunological diseases,choroby immunologiczne
+105,GENERAL,participate,uczestniczyć
+106,GENERAL,maintain,utrzymywać / podtrzymywać
+107,DISCUSION,take sth. into account,brać coś pod uwagę
+108,DISCUSION,personality clashes,konflikty charakterów
+109,DISCUSION,survey,ankieta / badanie / sondaż
+110,GENERAL,match,dopasować / pasować
+111,GENERAL,infighting,wewnętrzne konflikty / walki wewnętrzne
+112,LAW,forced eviction,przymusowa eksmisja
+113,LAW,last resort,ostateczność / ostatnia deska ratunku
+114,GENERAL,problems solved,rozwiązane problemy
+115,GENERAL,problems resolved,rozwiązane problemy / konflikty zażegnane
+116,GENERAL,flair,smykałka / talent
+117,GENERAL,offset by,równoważony przez
+118,GENERAL,positively averse,wyjątkowo niechętny
+119,GENERAL,needy,wymagający uwagi
+120,GENERAL,time-consuming,czasochłonny
+121,GENERAL,evolved specifically for this purpose,ewoluował specjalnie w tym celu
+122,GENERAL,barely human,ledwo ludzki / nieludzki
+123,GENERAL,acclimatized to,przyzwyczajony do
+124,GENERAL,emotionally defective,emocjonalnie wybrakowany
+125,GENERAL,inheritance,spadek
+126,GENERAL,donkey sanctuary,schronisko dla osłów
+127,GENERAL,profoundly cynical,głęboko cyniczny
+128,GENERAL,let somebody down,zawieść kogoś
+129,GENERAL,soft option,łatwe wyjście
+130,GENERAL,partial way,wybiórczy sposób
+131,GENERAL,frolicking,beztrosko bawiący się
+132,GENERAL,without a second thought,bez zastanowienia
+133,GENERAL,sentimentality,sentymentalizm
+134,GENERAL,cynical,cyniczny
+135,GENERAL,gorgeous balls of fluff,urocze kulki futra
+136,GENERAL,litter tray,kuweta
+137,GENERAL,infestation,plaga / inwazja
+138,GENERAL,obsessed with,mieć obsesję na punkcie
+139,GENERAL,attacked or bitten by,zostać zaatakowanym lub pogryzionym przez
+140,GENERAL,allergic to bee or wasp stings,uczulony na użądlenia pszczół lub os
+141,GENERAL,shellfish,owoce morza / skorupiaki
+142,IDIOM,like water off a duck’s back,spływa po kimś jak po kaczce
+143,IDIOM,like a fish out of water,czuć się jak ryba bez wody
+144,IDIOM,don’t count your chickens before they hatch,nie chwal dnia przed zachodem słońca
+145,IDIOM,dark horse,czarny koń / ktoś tajemniczy
+146,IDIOM,the lion’s share,lwia część
+147,IDIOM,smell a rat,wyczuwać podstęp
+148,IDIOM,kill two birds with one stone,upiec dwie pieczenie na jednym ogniu
+149,IDIOM,bark is worse than bite,ktoś więcej grozi niż robi
+150,IDIOM,tail between his legs,ze spuszczonym ogonem / zawstydzony
+151,IDIOM,cute as a kitten,słodki jak kotek
+152,IDIOM,rest in peace,spoczywaj w pokoju
+153,IDIOM,a soft option,łatwizna / łatwe rozwiązanie
+154,GENERAL,appreciate the opportunity,doceniać możliwość
+155,GENERAL,tiring and stressful,męczący i stresujący
+156,GENERAL,affect personal life,wpływać na życie prywatne
+157,GENERAL,venue,miejsce wydarzenia
+158,GENERAL,facilities,udogodnienia / zaplecze
+159,GENERAL,excursion,wycieczka
+160,GENERAL,conference venue,miejsce konferencji
+161,GENERAL,off-limits,niedostępny / zakazany
+162,GENERAL,freshen up,odświeżyć się
+163,GENERAL,show somebody around,oprowadzić kogoś
+164,GENERAL,drop somebody off,podrzucić / odstawić kogoś
+165,GENERAL,look around,rozejrzeć się
+166,GENERAL,meet up with,spotkać się z
+167,GENERAL,get around the site,poruszać się po obiekcie
+168,GENERAL,clear it with Facilities,uzgodnić to z administracją
+169,LAW,punishment,kara
+170,LAW,prison sentence,wyrok więzienia
+171,LAW,deterrent,środek odstraszający
+172,LAW,offence,przestępstwo
+173,LAW,plead guilty,przyznać się do winy
+174,LAW,plead not guilty,nie przyznać się do winy
+175,LAW,defendant,oskarżony
+176,LAW,serial offender,recydywista / seryjny przestępca
+177,LAW,mitigating circumstances,okoliczności łagodzące
+178,LAW,diminished responsibility,ograniczona poczytalność
+179,LAW,non-custodial sentence,kara bez pozbawienia wolności
+180,LAW,fine,grzywna
+181,LAW,community service,prace społeczne
+182,LAW,custodial sentence,kara więzienia
+183,LAW,life sentence,kara dożywocia
+184,LAW,capital punishment,kara śmierci
+185,LAW,death penalty,kara śmierci
+186,LAW,abolished,zniesiony
+187,LAW,execute someone,wykonać egzekucję na kimś
+188,LAW,war crimes,zbrodnie wojenne
+189,LAW,electric chair,krzesło elektryczne
+190,LAW,hanging,powieszenie
+191,LAW,lethal injection,śmiertelny zastrzyk
+192,LAW,inmate,więzień / osadzony
+193,LAW,prison officer,funkcjonariusz więzienny
+194,LAW,solitary confinement,izolatka
+195,LAW,convicted,skazany
+196,LAW,maximum security prison,więzienie o zaostrzonym rygorze
+197,LAW,locked up,zamknięty / osadzony
+198,LAW,surveillance,nadzór / monitoring
+199,LAW,open prison,więzienie otwarte
+200,LAW,rehabilitation,resocjalizacja
+201,LAW,reoffend,popełnić przestępstwo ponownie
+202,LAW,maintain order,utrzymywać porządek
+203,LAW,deprived of recreation,pozbawiony rozrywki
+204,LAW,parole,zwolnienie warunkowe
+205,LAW,electronic tag,elektroniczna bransoletka
+206,LAW,reintegrate into society,ponownie zintegrować się ze społeczeństwem
+207,LAW,retrial,ponowny proces
+208,LAW,wrongfully convicted,niesłusznie skazany
+209,LAW,pardon,ułaskawienie
+210,LAW,sentence is quashed,wyrok zostaje unieważniony
+211,LAW,compensation,odszkodowanie
+212,LAW,appeal system,system apelacyjny
+213,LAW,criminal record,kartoteka kryminalna
+214,LAW,commit a crime,popełnić przestępstwo
+215,LAW,be released early,zostać zwolnionym wcześniej
+216,LAW,abide by conditions,przestrzegać warunków
+217,LAW,substantial compensation,wysokie odszkodowanie
+218,LAW,trial,proces sądowy
+219,LAW,allegations,pomówienia / oskarżenia
+220,LAW,the parties,strony w procesie
+221,LAW,the audience,widownia na sali sądowej
+222,LAW,the accused,oskarżony
+223,LAW,the court,sąd
+224,LAW,to accuse somebody of something,oskarżyć kogoś o coś
+225,LAW,courtroom,sala sądowa
+226,LAW,defend,bronić
+227,LAW,jury,ława przysięgłych
+228,LAW,defendant,oskarżony / pozwany
+229,LAW,verdict,werdykt
+230,LAW,solicitor,adwokat / radca prawny
+231,LAW,advocate,adwokat / obrońca
+232,LAW,barrister,adwokat występujący przed sądem
+233,LAW,sentence,wyrok
+234,LAW,prosecutor,oskarżyciel / prokurator
+235,LAW,to sentence somebody,skazać kogoś
+236,LAW,to prosecute,oskarżać / ścigać prawnie
+237,LAW,standing regulations,obowiązujące przepisy
+238,LAW,witness,świadek
+239,LAW,complaint,skarga
+240,LAW,to examine a witness,przesłuchiwać świadka
+241,LAW,to complain,skarżyć się / użalać się
+242,LAW,to hear a case,wysłuchać sprawy
+243,LAW,cassation office,urząd kasacyjny
+244,LAW,to file a motion,złożyć wniosek
+245,LAW,request,prośba / wniosek
+246,LAW,to sue somebody,pozwać kogoś
+247,LAW,groundless,bezpodstawny
+248,LAW,charge somebody with something,oskarżyć kogoś o coś / postawić zarzuty
+249,LAW,justification,uzasadnienie
+250,LAW,charges,zarzuty
+251,LAW,to pronounce the sentence,ogłosić wyrok
+252,GENERAL,bond with,zżyć się z / nawiązać więź z
+253,GENERAL,aversion to,niechęć do
+254,GENERAL,single people,samotni ludzie
+255,GENERAL,divorcees,rozwodnicy
+256,GENERAL,enthusiastic crowds,entuzjastyczne tłumy
+257,GENERAL,sarcastic,sarkastyczny
+258,IDIOM,get the wrong end of the stick,źle coś zrozumieć
+259,IDIOM,get the impression,odnieść wrażenie
+260,IDIOM,get on somebody’s nerves,działać komuś na nerwy
+261,IDIOM,get the message,domyślić się aluzji / zrozumieć przekaz
+262,IDIOM,get your own way,postawić na swoim
+263,IDIOM,get anywhere with something,robić postępy w czymś
+264,IDIOM,get a life,ogarnąć się / znaleźć sobie życie
+265,IDIOM,get on like a house on fire,świetnie się dogadywać
+266,IDIOM,get your act together,wziąć się w garść
+267,IDIOM,get a move on,pospieszyć się
+268,IDIOM,get on with,kontynuować / zabrać się za
+269,IDIOM,get away with,ujść komuś na sucho
+270,IDIOM,get behind with,mieć zaległości
+271,IDIOM,get out of,wykręcić się od
+272,IDIOM,get somebody down,przygnębiać kogoś
+273,IDIOM,get over,otrząsnąć się po czymś
+274,IDIOM,get through to somebody,dotrzeć do kogoś
+275,IDIOM,get by on,utrzymać się za
+276,IDIOM,get back to somebody,oddzwonić / wrócić do kogoś z odpowiedzią
+277,IDIOM,get together with,zejść się / zacząć być razem
+278,IDIOM,get into,dostać się do / zacząć karierę w
+279,IDIOM,get your eyes tested,zbadać wzrok
+280,IDIOM,get something delivered,mieć coś dostarczone
+281,IDIOM,get something stolen,mieć coś skradzione
+282,IDIOM,get hurt in a crash,zostać rannym w wypadku
+283,IDIOM,get into trouble,wpaść w kłopoty
+284,IDIOM,get hold of somebody,skontaktować się z kimś
+285,IDIOM,get rid of,pozbyć się
+286,IDIOM,get out of the way,zejść z drogi
+287,IDIOM,get the wrong end of the stick,źle coś zrozumieć
+288,IDIOM,get the chance,dostać szansę
+289,IDIOM,get the joke,zrozumieć żart
+290,IDIOM,get his own back,odegrać się / zemścić się
+291,IDIOM,get to know somebody,poznać kogoś lepiej
+292,IDIOM,get the impression,odnieść wrażenie

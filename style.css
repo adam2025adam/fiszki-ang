@@ -10,7 +10,7 @@
   --surface: #ffffff;
   --text: #1a1a1a;
   --muted: #888;
-  --accent: #2563eb;
+  --accent: #2550eb;
   --accent-dark: #1d4ed8;
   --chip-bg: #e5e7eb;
   --chip-active-bg: #1a1a1a;
@@ -328,6 +328,36 @@ body {
 .ctrl-btn.primary:hover {
   background: var(--accent-dark);
   border-color: var(--accent-dark);
+}
+
+/* ===== Swipe feedback overlay ===== */
+#swipe-feedback {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  pointer-events: none;
+  font-size: 1.5rem;
+  font-weight: 900;
+  letter-spacing: 3px;
+  padding: 8px 22px;
+  border-radius: 10px;
+  border: 3px solid transparent;
+  opacity: 0;
+  white-space: nowrap;
+}
+
+#swipe-feedback.easy {
+  color: #16a34a;
+  border-color: #16a34a;
+  background: rgba(22, 163, 74, 0.1);
+}
+
+#swipe-feedback.hard {
+  color: #dc2626;
+  border-color: #dc2626;
+  background: rgba(220, 38, 38, 0.1);
 }
 
 /* ===== Utility ===== */

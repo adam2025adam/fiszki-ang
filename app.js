@@ -3,16 +3,19 @@
 // ─── Konfiguracja ────────────────────────────────────────────────────────────
 
 const STORAGE_KEY     = 'fiszki_categories';
-const SWIPE_THRESHOLD = 80; // px – minimalne przesunięcie uznawane za swipe
+const PROGRESS_KEY    = 'fiszki_progress';
+const SWIPE_THRESHOLD = 80; // px
 
 // ─── Stan aplikacji ───────────────────────────────────────────────────────────
 
 let allWords         = [];
-let categories       = []; // wypełniane dynamicznie z words.json
+let categories       = [];
 let activeCategories = new Set();
 let currentWord      = null;
 let lastWord         = null;
 let isFlipped        = false;
+let isShowingCompletion = false;
+let completionTimeout   = null;
 
 // ─── Elementy DOM ─────────────────────────────────────────────────────────────
 
@@ -22,6 +25,7 @@ const wordPlEl    = document.getElementById('word-pl');
 const chipsEl     = document.getElementById('category-chips');
 const noCatMsg    = document.getElementById('no-category-msg');
 const cardWrapper = document.getElementById('card-wrapper');
+const feedbackEl  = document.getElementById('swipe-feedback');
 const btnFlip     = document.getElementById('btn-flip');
 const btnNext     = document.getElementById('btn-next');
 const btnAll      = document.getElementById('btn-all');
@@ -81,7 +85,6 @@ function closeCategoryPanel() {
   btnCategory.setAttribute('aria-expanded', 'false');
 }
 
-// Zamknij panel po kliknięciu poza nim
 document.addEventListener('pointerdown', e => {
   if (!catPanel.classList.contains('open')) return;
   if (!catPanel.contains(e.target) && !btnCategory.contains(e.target)) {
@@ -91,7 +94,6 @@ document.addEventListener('pointerdown', e => {
 
 // ─── Kategorie ────────────────────────────────────────────────────────────────
 
-/** Tworzy chip dla każdej kategorii */
 function buildCategoryChips() {
   chipsEl.innerHTML = '';
   categories.forEach(cat => {
@@ -104,7 +106,17 @@ function buildCategoryChips() {
   });
 }
 
+function cancelCompletion() {
+  isShowingCompletion = false;
+  if (completionTimeout) {
+    clearTimeout(completionTimeout);
+    completionTimeout = null;
+  }
+  noCatMsg.classList.add('hidden');
+}
+
 function toggleCategory(cat) {
+  cancelCompletion();
   if (activeCategories.has(cat)) {
     activeCategories.delete(cat);
   } else {
@@ -116,6 +128,7 @@ function toggleCategory(cat) {
 }
 
 function setAllCategories() {
+  cancelCompletion();
   activeCategories = new Set(categories);
   saveCategoriesToStorage();
   renderChips();
@@ -123,13 +136,13 @@ function setAllCategories() {
 }
 
 function clearCategories() {
+  cancelCompletion();
   activeCategories.clear();
   saveCategoriesToStorage();
   renderChips();
   showNextCard();
 }
 
-/** Aktualizuje wygląd chipów i odznakę na przycisku */
 function renderChips() {
   chipsEl.querySelectorAll('.chip').forEach(btn => {
     btn.classList.toggle('active', activeCategories.has(btn.dataset.cat));
@@ -139,7 +152,7 @@ function renderChips() {
   catBadge.style.display = count > 0 ? '' : 'none';
 }
 
-// ─── localStorage ─────────────────────────────────────────────────────────────
+// ─── localStorage – kategorie ─────────────────────────────────────────────────
 
 function saveCategoriesToStorage() {
   localStorage.setItem(STORAGE_KEY, JSON.stringify([...activeCategories]));
@@ -150,7 +163,6 @@ function loadCategoriesFromStorage() {
   if (saved) {
     try {
       const arr = JSON.parse(saved);
-      // Zachowaj tylko te kategorie, które faktycznie istnieją w JSON
       activeCategories = new Set(arr.filter(c => categories.includes(c)));
     } catch {
       activeCategories = new Set(categories);
@@ -160,13 +172,63 @@ function loadCategoriesFromStorage() {
   }
 }
 
+// ─── localStorage – postęp nauki ──────────────────────────────────────────────
+
+function loadProgress() {
+  try {
+    const saved = localStorage.getItem(PROGRESS_KEY);
+    if (!saved) return { easy: [], hard: [] };
+    const parsed = JSON.parse(saved);
+    if (!Array.isArray(parsed.easy) || !Array.isArray(parsed.hard)) {
+      return { easy: [], hard: [] };
+    }
+    // Ignoruj id, których nie ma już w aktualnym words.json
+    const allIds = new Set(allWords.map(w => w.id));
+    return {
+      easy: parsed.easy.filter(id => allIds.has(id)),
+      hard: parsed.hard.filter(id => allIds.has(id)),
+    };
+  } catch {
+    return { easy: [], hard: [] };
+  }
+}
+
+function saveProgress(progress) {
+  localStorage.setItem(PROGRESS_KEY, JSON.stringify(progress));
+}
+
+function clearProgress() {
+  localStorage.removeItem(PROGRESS_KEY);
+}
+
+function markEasy(wordId) {
+  const progress = loadProgress();
+  if (!progress.easy.includes(wordId)) {
+    progress.easy.push(wordId);
+  }
+  // Jeśli było w hard, usuń
+  progress.hard = progress.hard.filter(id => id !== wordId);
+  saveProgress(progress);
+}
+
+function markHard(wordId) {
+  const progress = loadProgress();
+  if (!progress.hard.includes(wordId)) {
+    progress.hard.push(wordId);
+  }
+  saveProgress(progress);
+}
+
 // ─── Wybieranie słówka ────────────────────────────────────────────────────────
 
 function getActivePool() {
-  return allWords.filter(w => activeCategories.has(w.category));
+  const progress = loadProgress();
+  const easyIds  = new Set(progress.easy);
+  return allWords.filter(w =>
+    activeCategories.has(w.category) && !easyIds.has(w.id)
+  );
 }
 
-/** Wybiera losowe słówko, unikając powtórzenia jeśli pula > 1 */
 function pickRandom(pool) {
   if (pool.length === 0) return null;
   if (pool.length === 1) return pool[0];
@@ -177,11 +239,39 @@ function pickRandom(pool) {
 // ─── Wyświetlanie fiszki ──────────────────────────────────────────────────────
 
 function showNextCard() {
+  if (isShowingCompletion) return;
+
   const pool = getActivePool();
 
   if (pool.length === 0) {
-    noCatMsg.classList.remove('hidden');
     cardWrapper.classList.add('hidden');
+
+    if (activeCategories.size === 0) {
+      noCatMsg.textContent = 'Wybierz co najmniej jedną kategorię';
+      noCatMsg.classList.remove('hidden');
+    } else {
+      const progress  = loadProgress();
+      const easyIds   = new Set(progress.easy);
+      const allDone   = allWords.every(w => easyIds.has(w.id));
+
+      if (allDone) {
+        // Wszystkie słówka z całego words.json są EASY → globalny reset
+        isShowingCompletion = true;
+        noCatMsg.textContent = 'All cards completed — starting a new round';
+        noCatMsg.classList.remove('hidden');
+        clearProgress();
+        completionTimeout = setTimeout(() => {
+          isShowingCompletion = false;
+          completionTimeout   = null;
+          noCatMsg.classList.add('hidden');
+          showNextCard();
+        }, 1800);
+      } else {
+        // Tylko aktywne kategorie ukończone – nie czyść postępu
+        noCatMsg.textContent = 'All cards in selected categories completed';
+        noCatMsg.classList.remove('hidden');
+      }
+    }
     return;
   }
 
@@ -217,32 +307,50 @@ function resetFlipWithoutAnimation() {
   }));
 }
 
-// ─── Animacja swipe (Web Animations API) ─────────────────────────────────────
+// ─── Feedback wizualny ────────────────────────────────────────────────────────
 
-/**
- * Buduje string transformacji dla cardWrapper podczas przeciągania.
- * Tylko 2D – flip obsługuje cardEl przez klasę .flipped.
- */
+function showFeedback(dir, opacity) {
+  if (dir === 'left') {
+    feedbackEl.textContent = 'EASY';
+    feedbackEl.className   = 'easy';
+  } else {
+    feedbackEl.textContent = 'HARD';
+    feedbackEl.className   = 'hard';
+  }
+  feedbackEl.style.opacity = opacity;
+}
+
+function hideFeedback() {
+  feedbackEl.style.opacity = 0;
+}
+
+// ─── Animacja swipe ───────────────────────────────────────────────────────────
+
 function buildDragTransform(dx) {
   const rotate = dx * 0.07;
   return `translateX(${dx}px) rotate(${rotate}deg)`;
 }
 
 /**
- * Animuje cardWrapper poza ekran i ładuje następną fiszkę.
- * @param {string} dir        - 'left' lub 'right'
- * @param {number|null} fromDx - aktualne przesunięcie palca (null = kliknięcie przycisku)
+ * @param {string}      dir          - 'left' (EASY) lub 'right' (HARD)
+ * @param {number|null} fromDx       - bieżące przesunięcie palca (null = przycisk)
+ * @param {boolean}     recordResult - czy zapisać wynik do localStorage
  */
-function swipeOut(dir, fromDx = null) {
+function swipeOut(dir, fromDx = null, recordResult = true) {
   cardEl.style.pointerEvents = 'none';
 
-  // Punkt startowy: bieżąca pozycja wrappera
-  const fromTransform = fromDx !== null ? buildDragTransform(fromDx) : 'none';
+  if (recordResult && currentWord) {
+    if (dir === 'left') {
+      markEasy(currentWord.id);
+    } else {
+      markHard(currentWord.id);
+    }
+  }
 
-  // Punkt docelowy: poza ekranem
-  const exitPx      = (window.innerWidth + 300) * (dir === 'left' ? -1 : 1);
-  const exitRot     = dir === 'left' ? -12 : 12;
-  const toTransform = `translateX(${exitPx}px) rotate(${exitRot}deg)`;
+  const fromTransform = fromDx !== null ? buildDragTransform(fromDx) : 'none';
+  const exitPx        = (window.innerWidth + 300) * (dir === 'left' ? -1 : 1);
+  const exitRot       = dir === 'left' ? -12 : 12;
+  const toTransform   = `translateX(${exitPx}px) rotate(${exitRot}deg)`;
 
   const anim = cardWrapper.animate(
     [
@@ -256,13 +364,13 @@ function swipeOut(dir, fromDx = null) {
     anim.commitStyles();
     anim.cancel();
 
-    cardWrapper.style.transform     = '';
-    cardWrapper.style.opacity       = '0'; // tymczasowo ukryj podczas zamiany treści
-    cardEl.style.pointerEvents      = '';
+    hideFeedback();
+    cardWrapper.style.transform = '';
+    cardWrapper.style.opacity   = '0';
+    cardEl.style.pointerEvents  = '';
 
     showNextCard();
 
-    // Slide-in nowej fiszki po dwóch klatkach (żeby przeglądarka zaaplikowała nową treść)
     requestAnimationFrame(() => requestAnimationFrame(() => {
       cardWrapper.style.opacity = '';
       cardWrapper.classList.add('anim-slide-in');
@@ -305,6 +413,14 @@ function onPointerMove(e) {
 
   // Swipe obsługuje cardWrapper; cardEl odpowiada tylko za flip
   cardWrapper.style.transform = buildDragTransform(dx);
+
+  // Feedback proporcjonalny do odległości przeciągania
+  if (Math.abs(dx) > 20) {
+    const opacity = Math.min(Math.abs(dx) / SWIPE_THRESHOLD, 1);
+    showFeedback(dx < 0 ? 'left' : 'right', opacity);
+  } else {
+    hideFeedback();
+  }
 }
 
 function onPointerUp(e) {
@@ -316,17 +432,16 @@ function onPointerUp(e) {
   cardEl.classList.remove('dragging');
 
   if (wasGesture && Math.abs(dx) >= SWIPE_THRESHOLD) {
-    // Swipe: cardWrapper kontynuuje ruch z miejsca puszczenia
+    // left = EASY, right = HARD
     swipeOut(dx < 0 ? 'left' : 'right', dx);
   } else if (wasGesture) {
-    // Krótki drag poniżej progu: powrót na środek z animacją transition
+    hideFeedback();
     cardWrapper.style.transition = 'transform 0.35s ease';
     cardWrapper.style.transform  = '';
     cardWrapper.addEventListener('transitionend', () => {
       cardWrapper.style.transition = '';
     }, { once: true });
   } else {
-    // Czysty tap bez przeciągania: odwróć fiszkę
     flipCard();
   }
 
@@ -338,6 +453,7 @@ function onPointerUp(e) {
 function onPointerCancel() {
   cardEl.classList.remove('dragging');
   cardWrapper.style.transform = '';
+  hideFeedback();
   pointerStart   = null;
   pointerCurrent = null;
   isDragging     = false;
@@ -350,12 +466,12 @@ cardEl.addEventListener('pointermove',   onPointerMove);
 cardEl.addEventListener('pointerup',     onPointerUp);
 cardEl.addEventListener('pointercancel', onPointerCancel);
 
-// Blokuje przewijanie strony podczas przeciągania fiszki
 cardEl.addEventListener('touchstart', e => e.preventDefault(), { passive: false });
 
 btnCategory.addEventListener('click', toggleCategoryPanel);
 btnFlip.addEventListener('click', flipCard);
-btnNext.addEventListener('click', () => swipeOut('left'));
+// Next – przesuwa kartę bez zapisywania wyniku (ani EASY ani HARD)
+btnNext.addEventListener('click', () => swipeOut('left', null, false));
 btnAll.addEventListener('click', setAllCategories);
 btnNone.addEventListener('click', clearCategories);
 

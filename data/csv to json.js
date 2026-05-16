@@ -14,15 +14,21 @@ const lines = csv
 const dataLines = lines.slice(1);
 
 const words = dataLines.map(line => {
-  const [category, english, polish] = line.split(",");
+  // ID, CATEGORY, ENGLISH, POLISH
+  const [id, category, english, polish] = line.split(",");
 
   return {
+    id: Number(id.trim()),
     english: english.trim(),
     polish: polish.trim(),
     category: category.trim().toUpperCase()
   };
 });
 
-fs.writeFileSync(outputFile, JSON.stringify(words, null, 2), "utf8");
+fs.writeFileSync(
+  outputFile,
+  JSON.stringify(words, null, 2),
+  "utf8"
+);
 
 console.log(`Gotowe. Zapisano ${words.length} słówek do ${outputFile}`);
