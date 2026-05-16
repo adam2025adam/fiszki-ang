@@ -1,0 +1,1462 @@
+[
+  {
+    "english": "shortfall",
+    "polish": "niedobór",
+    "category": "GENERAL"
+  },
+  {
+    "english": "shortcomings",
+    "polish": "niedociągnięcia",
+    "category": "GENERAL"
+  },
+  {
+    "english": "under-utilised",
+    "polish": "niewykorzystany",
+    "category": "GENERAL"
+  },
+  {
+    "english": "reluctant",
+    "polish": "niechętny",
+    "category": "GENERAL"
+  },
+  {
+    "english": "nudge",
+    "polish": "szturchnąć / zachęcić",
+    "category": "GENERAL"
+  },
+  {
+    "english": "innegable (innegible?)",
+    "polish": "niezaprzeczalny",
+    "category": "GENERAL"
+  },
+  {
+    "english": "inquire",
+    "polish": "pytać / zadawać pytania",
+    "category": "GENERAL"
+  },
+  {
+    "english": "look into",
+    "polish": "zbadać",
+    "category": "GENERAL"
+  },
+  {
+    "english": "put off",
+    "polish": "przełożyć",
+    "category": "GENERAL"
+  },
+  {
+    "english": "carry on",
+    "polish": "kontynuować",
+    "category": "GENERAL"
+  },
+  {
+    "english": "set objectives",
+    "polish": "ustawić cele",
+    "category": "GENERAL"
+  },
+  {
+    "english": "tight deadline",
+    "polish": "krótki deadline",
+    "category": "GENERAL"
+  },
+  {
+    "english": "stay within the budget",
+    "polish": "zmieścić się w budżecie",
+    "category": "POLITICS"
+  },
+  {
+    "english": "tackle",
+    "polish": "zmierzyć się z",
+    "category": "POLITICS"
+  },
+  {
+    "english": "call for",
+    "polish": "żądać / wymagać",
+    "category": "POLITICS"
+  },
+  {
+    "english": "shifting the blame",
+    "polish": "przerzucanie winy",
+    "category": "POLITICS"
+  },
+  {
+    "english": "address me",
+    "polish": "zwrócić się do mnie",
+    "category": "POLITICS"
+  },
+  {
+    "english": "allocate resources",
+    "polish": "przydzielić zasoby",
+    "category": "POLITICS"
+  },
+  {
+    "english": "bridge the gap",
+    "polish": "wypełnić lukę",
+    "category": "POLITICS"
+  },
+  {
+    "english": "shape policy",
+    "polish": "kształtować politykę",
+    "category": "POLITICS"
+  },
+  {
+    "english": "set regulations and budget",
+    "polish": "ustalić regulacje i budżet",
+    "category": "POLITICS"
+  },
+  {
+    "english": "tackle corruption",
+    "polish": "zwalczać korupcję",
+    "category": "POLITICS"
+  },
+  {
+    "english": "enforce regulations",
+    "polish": "egzekwować regulacje",
+    "category": "POLITICS"
+  },
+  {
+    "english": "stand up for the rights",
+    "polish": "bronić praw",
+    "category": "POLITICS"
+  },
+  {
+    "english": "promote the development",
+    "polish": "promować rozwój",
+    "category": "POLITICS"
+  },
+  {
+    "english": "livestock",
+    "polish": "inwentarz",
+    "category": "GENERAL"
+  },
+  {
+    "english": "restore",
+    "polish": "przywrócić",
+    "category": "GENERAL"
+  },
+  {
+    "english": "culling",
+    "polish": "reducing the number of animals",
+    "category": "GENERAL"
+  },
+  {
+    "english": "risk assessment",
+    "polish": "ocena ryzyka",
+    "category": "POLITICS"
+  },
+  {
+    "english": "assess the risk",
+    "polish": "ocenić ryzyko",
+    "category": "POLITICS"
+  },
+  {
+    "english": "remote region",
+    "polish": "odległy region",
+    "category": "POLITICS"
+  },
+  {
+    "english": "I'm against any form of ...",
+    "polish": "jestem przeciwko każdej formie",
+    "category": "POLITICS"
+  },
+  {
+    "english": "No one would disagree with ...",
+    "polish": "nikt by się nie nie zgodził z",
+    "category": "DISCUSION"
+  },
+  {
+    "english": "I'd be surprised if that was the case",
+    "polish": "zdziwiłbym się gdyby tak było",
+    "category": "DISCUSION"
+  },
+  {
+    "english": "On the face of it",
+    "polish": "wydaje się że",
+    "category": "DISCUSION"
+  },
+  {
+    "english": "acknowledge",
+    "polish": "uznać / rozpoznać",
+    "category": "DISCUSION"
+  },
+  {
+    "english": "dismantle",
+    "polish": "rozebrać na części",
+    "category": "DISCUSION"
+  },
+  {
+    "english": "surpass expectation",
+    "polish": "przewyższyć oczekiwania",
+    "category": "DISCUSION"
+  },
+  {
+    "english": "biased",
+    "polish": "stronniczy",
+    "category": "DISCUSION"
+  },
+  {
+    "english": "tune in",
+    "polish": "dostosować się / wczuć się",
+    "category": "DISCUSION"
+  },
+  {
+    "english": "outrageous",
+    "polish": "skandaliczny",
+    "category": "DISCUSION"
+  },
+  {
+    "english": "impose",
+    "polish": "narzucać",
+    "category": "DISCUSION"
+  },
+  {
+    "english": "thorough",
+    "polish": "dokładny / skrupulatny",
+    "category": "DISCUSION"
+  },
+  {
+    "english": "rummaging",
+    "polish": "grzebanie",
+    "category": "GENERAL"
+  },
+  {
+    "english": "flourish",
+    "polish": "rozkwitać",
+    "category": "GENERAL"
+  },
+  {
+    "english": "bloom",
+    "polish": "rozkwitać",
+    "category": "GENERAL"
+  },
+  {
+    "english": "thrive",
+    "polish": "rozwijać się",
+    "category": "GENERAL"
+  },
+  {
+    "english": "vigilant",
+    "polish": "czujny",
+    "category": "GENERAL"
+  },
+  {
+    "english": "a thriving business",
+    "polish": "rozwijający się biznes",
+    "category": "GENERAL"
+  },
+  {
+    "english": "reigniting a fierce debate",
+    "polish": "rozpętać gorącą debatę",
+    "category": "DISCUSION"
+  },
+  {
+    "english": "caution / warned",
+    "polish": "uważać / być ostrzeżonym",
+    "category": "GENERAL"
+  },
+  {
+    "english": "sue",
+    "polish": "pozwać",
+    "category": "LAW"
+  },
+  {
+    "english": "damages",
+    "polish": "odszkodowanie finansowe",
+    "category": "LAW"
+  },
+  {
+    "english": "claim",
+    "polish": "twierdzić / pozew",
+    "category": "LAW"
+  },
+  {
+    "english": "claiment",
+    "polish": "twierdzenie",
+    "category": "LAW"
+  },
+  {
+    "english": "accused",
+    "polish": "oskarżony",
+    "category": "LAW"
+  },
+  {
+    "english": "defendant",
+    "polish": "pozwany",
+    "category": "LAW"
+  },
+  {
+    "english": "ruling",
+    "polish": "postanowienie sądu",
+    "category": "LAW"
+  },
+  {
+    "english": "you are bound by the contract",
+    "polish": "jesteśmy związani kontraktem",
+    "category": "LAW"
+  },
+  {
+    "english": "plagiarism",
+    "polish": "plagiat",
+    "category": "LAW"
+  },
+  {
+    "english": "nuisance",
+    "polish": "niedogodność",
+    "category": "LAW"
+  },
+  {
+    "english": "offence",
+    "polish": "wykroczenie",
+    "category": "LAW"
+  },
+  {
+    "english": "obstruct",
+    "polish": "utrudnić / przeszkodzić",
+    "category": "LAW"
+  },
+  {
+    "english": "minor",
+    "polish": "niepełnoletni",
+    "category": "LAW"
+  },
+  {
+    "english": "sentence",
+    "polish": "wyrok / skazać",
+    "category": "LAW"
+  },
+  {
+    "english": "convicted",
+    "polish": "skazany",
+    "category": "LAW"
+  },
+  {
+    "english": "convicts",
+    "polish": "skazańcy",
+    "category": "LAW"
+  },
+  {
+    "english": "moat",
+    "polish": "fosa",
+    "category": "LAW"
+  },
+  {
+    "english": "dismissed",
+    "polish": "zwolniony",
+    "category": "LAW"
+  },
+  {
+    "english": "linger",
+    "polish": "pozostać",
+    "category": "LAW"
+  },
+  {
+    "english": "depenalised",
+    "polish": "zdekryminalizować",
+    "category": "LAW"
+  },
+  {
+    "english": "plight",
+    "polish": "trudna sytuacja",
+    "category": "LAW"
+  },
+  {
+    "english": "plausible",
+    "polish": "wiarygodny / sensowny",
+    "category": "LAW"
+  },
+  {
+    "english": "lost cause",
+    "polish": "przegrana sprawa",
+    "category": "LAW"
+  },
+  {
+    "english": "objection",
+    "polish": "sprzeciw",
+    "category": "LAW"
+  },
+  {
+    "english": "your honor",
+    "polish": "wysoki sądzie",
+    "category": "LAW"
+  },
+  {
+    "english": "sustained",
+    "polish": "podtrzymuję",
+    "category": "LAW"
+  },
+  {
+    "english": "overruled",
+    "polish": "odrzucony",
+    "category": "LAW"
+  },
+  {
+    "english": "trial",
+    "polish": "proces",
+    "category": "LAW"
+  },
+  {
+    "english": "admit",
+    "polish": "przyznać",
+    "category": "LAW"
+  },
+  {
+    "english": "harmless",
+    "polish": "niegroźny",
+    "category": "LAW"
+  },
+  {
+    "english": "unharmed",
+    "polish": "nietknięty",
+    "category": "LAW"
+  },
+  {
+    "english": "fade",
+    "polish": "zanikać / blednąć",
+    "category": "GENERAL"
+  },
+  {
+    "english": "intimidate",
+    "polish": "zastraszać / onieśmielać",
+    "category": "GENERAL"
+  },
+  {
+    "english": "infringe",
+    "polish": "naruszać / łamać",
+    "category": "LAW"
+  },
+  {
+    "english": "for the sake of…",
+    "polish": "dla dobra… / ze względu na…",
+    "category": "LAW"
+  },
+  {
+    "english": "proportionately",
+    "polish": "proporcjonalnie",
+    "category": "LAW"
+  },
+  {
+    "english": "revenge",
+    "polish": "zemsta",
+    "category": "LAW"
+  },
+  {
+    "english": "re-socialise",
+    "polish": "resocjalizować",
+    "category": "LAW"
+  },
+  {
+    "english": "come to terms with…",
+    "polish": "pogodzić się z czymś",
+    "category": "GENERAL"
+  },
+  {
+    "english": "we should look at the bigger picture",
+    "polish": "powinniśmy spojrzeć na szerszy obraz sytuacji",
+    "category": "DISCUSION"
+  },
+  {
+    "english": "policy",
+    "polish": "polityka / zasady postępowania",
+    "category": "POLITICS"
+  },
+  {
+    "english": "what’s your stance?",
+    "polish": "jakie jest twoje stanowisko?",
+    "category": "DISCUSION"
+  },
+  {
+    "english": "carbon footprint",
+    "polish": "ślad węglowy",
+    "category": "POLITICS"
+  },
+  {
+    "english": "superior",
+    "polish": "lepszy / nadrzędny",
+    "category": "GENERAL"
+  },
+  {
+    "english": "inferior",
+    "polish": "gorszy / podrzędny",
+    "category": "GENERAL"
+  },
+  {
+    "english": "resent",
+    "polish": "mieć urazę / czuć żal",
+    "category": "GENERAL"
+  },
+  {
+    "english": "valid point",
+    "polish": "trafny argument",
+    "category": "DISCUSION"
+  },
+  {
+    "english": "vitamin deficiency",
+    "polish": "niedobór witamin",
+    "category": "GENERAL"
+  },
+  {
+    "english": "maintain a balanced diet",
+    "polish": "utrzymywać zbilansowaną dietę",
+    "category": "GENERAL"
+  },
+  {
+    "english": "that goes without saying",
+    "polish": "to jest oczywiste",
+    "category": "DISCUSION"
+  },
+  {
+    "english": "to some extent",
+    "polish": "do pewnego stopnia",
+    "category": "DISCUSION"
+  },
+  {
+    "english": "inconsiderate",
+    "polish": "nieuprzejmy / bezmyślny wobec innych",
+    "category": "GENERAL"
+  },
+  {
+    "english": "immunological diseases",
+    "polish": "choroby immunologiczne",
+    "category": "GENERAL"
+  },
+  {
+    "english": "participate",
+    "polish": "uczestniczyć",
+    "category": "GENERAL"
+  },
+  {
+    "english": "maintain",
+    "polish": "utrzymywać / podtrzymywać",
+    "category": "GENERAL"
+  },
+  {
+    "english": "take sth. into account",
+    "polish": "brać coś pod uwagę",
+    "category": "DISCUSION"
+  },
+  {
+    "english": "personality clashes",
+    "polish": "konflikty charakterów",
+    "category": "DISCUSION"
+  },
+  {
+    "english": "survey",
+    "polish": "ankieta / badanie / sondaż",
+    "category": "DISCUSION"
+  },
+  {
+    "english": "match",
+    "polish": "dopasować / pasować",
+    "category": "GENERAL"
+  },
+  {
+    "english": "infighting",
+    "polish": "wewnętrzne konflikty / walki wewnętrzne",
+    "category": "GENERAL"
+  },
+  {
+    "english": "forced eviction",
+    "polish": "przymusowa eksmisja",
+    "category": "LAW"
+  },
+  {
+    "english": "last resort",
+    "polish": "ostateczność / ostatnia deska ratunku",
+    "category": "LAW"
+  },
+  {
+    "english": "problems solved",
+    "polish": "rozwiązane problemy",
+    "category": "GENERAL"
+  },
+  {
+    "english": "problems resolved",
+    "polish": "rozwiązane problemy / konflikty zażegnane",
+    "category": "GENERAL"
+  },
+  {
+    "english": "flair",
+    "polish": "smykałka / talent",
+    "category": "GENERAL"
+  },
+  {
+    "english": "offset by",
+    "polish": "równoważony przez",
+    "category": "GENERAL"
+  },
+  {
+    "english": "positively averse",
+    "polish": "wyjątkowo niechętny",
+    "category": "GENERAL"
+  },
+  {
+    "english": "needy",
+    "polish": "wymagający uwagi",
+    "category": "GENERAL"
+  },
+  {
+    "english": "time-consuming",
+    "polish": "czasochłonny",
+    "category": "GENERAL"
+  },
+  {
+    "english": "evolved specifically for this purpose",
+    "polish": "ewoluował specjalnie w tym celu",
+    "category": "GENERAL"
+  },
+  {
+    "english": "barely human",
+    "polish": "ledwo ludzki / nieludzki",
+    "category": "GENERAL"
+  },
+  {
+    "english": "acclimatized to",
+    "polish": "przyzwyczajony do",
+    "category": "GENERAL"
+  },
+  {
+    "english": "emotionally defective",
+    "polish": "emocjonalnie wybrakowany",
+    "category": "GENERAL"
+  },
+  {
+    "english": "inheritance",
+    "polish": "spadek",
+    "category": "GENERAL"
+  },
+  {
+    "english": "donkey sanctuary",
+    "polish": "schronisko dla osłów",
+    "category": "GENERAL"
+  },
+  {
+    "english": "profoundly cynical",
+    "polish": "głęboko cyniczny",
+    "category": "GENERAL"
+  },
+  {
+    "english": "let somebody down",
+    "polish": "zawieść kogoś",
+    "category": "GENERAL"
+  },
+  {
+    "english": "soft option",
+    "polish": "łatwe wyjście",
+    "category": "GENERAL"
+  },
+  {
+    "english": "partial way",
+    "polish": "wybiórczy sposób",
+    "category": "GENERAL"
+  },
+  {
+    "english": "frolicking",
+    "polish": "beztrosko bawiący się",
+    "category": "GENERAL"
+  },
+  {
+    "english": "without a second thought",
+    "polish": "bez zastanowienia",
+    "category": "GENERAL"
+  },
+  {
+    "english": "sentimentality",
+    "polish": "sentymentalizm",
+    "category": "GENERAL"
+  },
+  {
+    "english": "cynical",
+    "polish": "cyniczny",
+    "category": "GENERAL"
+  },
+  {
+    "english": "gorgeous balls of fluff",
+    "polish": "urocze kulki futra",
+    "category": "GENERAL"
+  },
+  {
+    "english": "litter tray",
+    "polish": "kuweta",
+    "category": "GENERAL"
+  },
+  {
+    "english": "infestation",
+    "polish": "plaga / inwazja",
+    "category": "GENERAL"
+  },
+  {
+    "english": "obsessed with",
+    "polish": "mieć obsesję na punkcie",
+    "category": "GENERAL"
+  },
+  {
+    "english": "attacked or bitten by",
+    "polish": "zostać zaatakowanym lub pogryzionym przez",
+    "category": "GENERAL"
+  },
+  {
+    "english": "allergic to bee or wasp stings",
+    "polish": "uczulony na użądlenia pszczół lub os",
+    "category": "GENERAL"
+  },
+  {
+    "english": "shellfish",
+    "polish": "owoce morza / skorupiaki",
+    "category": "GENERAL"
+  },
+  {
+    "english": "like water off a duck’s back",
+    "polish": "spływa po kimś jak po kaczce",
+    "category": "IDIOM"
+  },
+  {
+    "english": "like a fish out of water",
+    "polish": "czuć się jak ryba bez wody",
+    "category": "IDIOM"
+  },
+  {
+    "english": "don’t count your chickens before they hatch",
+    "polish": "nie chwal dnia przed zachodem słońca",
+    "category": "IDIOM"
+  },
+  {
+    "english": "dark horse",
+    "polish": "czarny koń / ktoś tajemniczy",
+    "category": "IDIOM"
+  },
+  {
+    "english": "the lion’s share",
+    "polish": "lwia część",
+    "category": "IDIOM"
+  },
+  {
+    "english": "smell a rat",
+    "polish": "wyczuwać podstęp",
+    "category": "IDIOM"
+  },
+  {
+    "english": "kill two birds with one stone",
+    "polish": "upiec dwie pieczenie na jednym ogniu",
+    "category": "IDIOM"
+  },
+  {
+    "english": "bark is worse than bite",
+    "polish": "ktoś więcej grozi niż robi",
+    "category": "IDIOM"
+  },
+  {
+    "english": "tail between his legs",
+    "polish": "ze spuszczonym ogonem / zawstydzony",
+    "category": "IDIOM"
+  },
+  {
+    "english": "cute as a kitten",
+    "polish": "słodki jak kotek",
+    "category": "IDIOM"
+  },
+  {
+    "english": "rest in peace",
+    "polish": "spoczywaj w pokoju",
+    "category": "IDIOM"
+  },
+  {
+    "english": "a soft option",
+    "polish": "łatwizna / łatwe rozwiązanie",
+    "category": "IDIOM"
+  },
+  {
+    "english": "appreciate the opportunity",
+    "polish": "doceniać możliwość",
+    "category": "GENERAL"
+  },
+  {
+    "english": "tiring and stressful",
+    "polish": "męczący i stresujący",
+    "category": "GENERAL"
+  },
+  {
+    "english": "affect personal life",
+    "polish": "wpływać na życie prywatne",
+    "category": "GENERAL"
+  },
+  {
+    "english": "venue",
+    "polish": "miejsce wydarzenia",
+    "category": "GENERAL"
+  },
+  {
+    "english": "facilities",
+    "polish": "udogodnienia / zaplecze",
+    "category": "GENERAL"
+  },
+  {
+    "english": "excursion",
+    "polish": "wycieczka",
+    "category": "GENERAL"
+  },
+  {
+    "english": "conference venue",
+    "polish": "miejsce konferencji",
+    "category": "GENERAL"
+  },
+  {
+    "english": "off-limits",
+    "polish": "niedostępny / zakazany",
+    "category": "GENERAL"
+  },
+  {
+    "english": "freshen up",
+    "polish": "odświeżyć się",
+    "category": "GENERAL"
+  },
+  {
+    "english": "show somebody around",
+    "polish": "oprowadzić kogoś",
+    "category": "GENERAL"
+  },
+  {
+    "english": "drop somebody off",
+    "polish": "podrzucić / odstawić kogoś",
+    "category": "GENERAL"
+  },
+  {
+    "english": "look around",
+    "polish": "rozejrzeć się",
+    "category": "GENERAL"
+  },
+  {
+    "english": "meet up with",
+    "polish": "spotkać się z",
+    "category": "GENERAL"
+  },
+  {
+    "english": "get around the site",
+    "polish": "poruszać się po obiekcie",
+    "category": "GENERAL"
+  },
+  {
+    "english": "clear it with Facilities",
+    "polish": "uzgodnić to z administracją",
+    "category": "GENERAL"
+  },
+  {
+    "english": "punishment",
+    "polish": "kara",
+    "category": "LAW"
+  },
+  {
+    "english": "prison sentence",
+    "polish": "wyrok więzienia",
+    "category": "LAW"
+  },
+  {
+    "english": "deterrent",
+    "polish": "środek odstraszający",
+    "category": "LAW"
+  },
+  {
+    "english": "offence",
+    "polish": "przestępstwo",
+    "category": "LAW"
+  },
+  {
+    "english": "plead guilty",
+    "polish": "przyznać się do winy",
+    "category": "LAW"
+  },
+  {
+    "english": "plead not guilty",
+    "polish": "nie przyznać się do winy",
+    "category": "LAW"
+  },
+  {
+    "english": "defendant",
+    "polish": "oskarżony",
+    "category": "LAW"
+  },
+  {
+    "english": "serial offender",
+    "polish": "recydywista / seryjny przestępca",
+    "category": "LAW"
+  },
+  {
+    "english": "mitigating circumstances",
+    "polish": "okoliczności łagodzące",
+    "category": "LAW"
+  },
+  {
+    "english": "diminished responsibility",
+    "polish": "ograniczona poczytalność",
+    "category": "LAW"
+  },
+  {
+    "english": "non-custodial sentence",
+    "polish": "kara bez pozbawienia wolności",
+    "category": "LAW"
+  },
+  {
+    "english": "fine",
+    "polish": "grzywna",
+    "category": "LAW"
+  },
+  {
+    "english": "community service",
+    "polish": "prace społeczne",
+    "category": "LAW"
+  },
+  {
+    "english": "custodial sentence",
+    "polish": "kara więzienia",
+    "category": "LAW"
+  },
+  {
+    "english": "life sentence",
+    "polish": "kara dożywocia",
+    "category": "LAW"
+  },
+  {
+    "english": "capital punishment",
+    "polish": "kara śmierci",
+    "category": "LAW"
+  },
+  {
+    "english": "death penalty",
+    "polish": "kara śmierci",
+    "category": "LAW"
+  },
+  {
+    "english": "abolished",
+    "polish": "zniesiony",
+    "category": "LAW"
+  },
+  {
+    "english": "execute someone",
+    "polish": "wykonać egzekucję na kimś",
+    "category": "LAW"
+  },
+  {
+    "english": "war crimes",
+    "polish": "zbrodnie wojenne",
+    "category": "LAW"
+  },
+  {
+    "english": "electric chair",
+    "polish": "krzesło elektryczne",
+    "category": "LAW"
+  },
+  {
+    "english": "hanging",
+    "polish": "powieszenie",
+    "category": "LAW"
+  },
+  {
+    "english": "lethal injection",
+    "polish": "śmiertelny zastrzyk",
+    "category": "LAW"
+  },
+  {
+    "english": "inmate",
+    "polish": "więzień / osadzony",
+    "category": "LAW"
+  },
+  {
+    "english": "prison officer",
+    "polish": "funkcjonariusz więzienny",
+    "category": "LAW"
+  },
+  {
+    "english": "solitary confinement",
+    "polish": "izolatka",
+    "category": "LAW"
+  },
+  {
+    "english": "convicted",
+    "polish": "skazany",
+    "category": "LAW"
+  },
+  {
+    "english": "maximum security prison",
+    "polish": "więzienie o zaostrzonym rygorze",
+    "category": "LAW"
+  },
+  {
+    "english": "locked up",
+    "polish": "zamknięty / osadzony",
+    "category": "LAW"
+  },
+  {
+    "english": "surveillance",
+    "polish": "nadzór / monitoring",
+    "category": "LAW"
+  },
+  {
+    "english": "open prison",
+    "polish": "więzienie otwarte",
+    "category": "LAW"
+  },
+  {
+    "english": "rehabilitation",
+    "polish": "resocjalizacja",
+    "category": "LAW"
+  },
+  {
+    "english": "reoffend",
+    "polish": "popełnić przestępstwo ponownie",
+    "category": "LAW"
+  },
+  {
+    "english": "maintain order",
+    "polish": "utrzymywać porządek",
+    "category": "LAW"
+  },
+  {
+    "english": "deprived of recreation",
+    "polish": "pozbawiony rozrywki",
+    "category": "LAW"
+  },
+  {
+    "english": "parole",
+    "polish": "zwolnienie warunkowe",
+    "category": "LAW"
+  },
+  {
+    "english": "electronic tag",
+    "polish": "elektroniczna bransoletka",
+    "category": "LAW"
+  },
+  {
+    "english": "reintegrate into society",
+    "polish": "ponownie zintegrować się ze społeczeństwem",
+    "category": "LAW"
+  },
+  {
+    "english": "retrial",
+    "polish": "ponowny proces",
+    "category": "LAW"
+  },
+  {
+    "english": "wrongfully convicted",
+    "polish": "niesłusznie skazany",
+    "category": "LAW"
+  },
+  {
+    "english": "pardon",
+    "polish": "ułaskawienie",
+    "category": "LAW"
+  },
+  {
+    "english": "sentence is quashed",
+    "polish": "wyrok zostaje unieważniony",
+    "category": "LAW"
+  },
+  {
+    "english": "compensation",
+    "polish": "odszkodowanie",
+    "category": "LAW"
+  },
+  {
+    "english": "appeal system",
+    "polish": "system apelacyjny",
+    "category": "LAW"
+  },
+  {
+    "english": "criminal record",
+    "polish": "kartoteka kryminalna",
+    "category": "LAW"
+  },
+  {
+    "english": "commit a crime",
+    "polish": "popełnić przestępstwo",
+    "category": "LAW"
+  },
+  {
+    "english": "be released early",
+    "polish": "zostać zwolnionym wcześniej",
+    "category": "LAW"
+  },
+  {
+    "english": "abide by conditions",
+    "polish": "przestrzegać warunków",
+    "category": "LAW"
+  },
+  {
+    "english": "substantial compensation",
+    "polish": "wysokie odszkodowanie",
+    "category": "LAW"
+  },
+  {
+    "english": "trial",
+    "polish": "proces sądowy",
+    "category": "LAW"
+  },
+  {
+    "english": "allegations",
+    "polish": "pomówienia / oskarżenia",
+    "category": "LAW"
+  },
+  {
+    "english": "the parties",
+    "polish": "strony w procesie",
+    "category": "LAW"
+  },
+  {
+    "english": "the audience",
+    "polish": "widownia na sali sądowej",
+    "category": "LAW"
+  },
+  {
+    "english": "the accused",
+    "polish": "oskarżony",
+    "category": "LAW"
+  },
+  {
+    "english": "the court",
+    "polish": "sąd",
+    "category": "LAW"
+  },
+  {
+    "english": "to accuse somebody of something",
+    "polish": "oskarżyć kogoś o coś",
+    "category": "LAW"
+  },
+  {
+    "english": "courtroom",
+    "polish": "sala sądowa",
+    "category": "LAW"
+  },
+  {
+    "english": "defend",
+    "polish": "bronić",
+    "category": "LAW"
+  },
+  {
+    "english": "jury",
+    "polish": "ława przysięgłych",
+    "category": "LAW"
+  },
+  {
+    "english": "defendant",
+    "polish": "oskarżony / pozwany",
+    "category": "LAW"
+  },
+  {
+    "english": "verdict",
+    "polish": "werdykt",
+    "category": "LAW"
+  },
+  {
+    "english": "solicitor",
+    "polish": "adwokat / radca prawny",
+    "category": "LAW"
+  },
+  {
+    "english": "advocate",
+    "polish": "adwokat / obrońca",
+    "category": "LAW"
+  },
+  {
+    "english": "barrister",
+    "polish": "adwokat występujący przed sądem",
+    "category": "LAW"
+  },
+  {
+    "english": "sentence",
+    "polish": "wyrok",
+    "category": "LAW"
+  },
+  {
+    "english": "prosecutor",
+    "polish": "oskarżyciel / prokurator",
+    "category": "LAW"
+  },
+  {
+    "english": "to sentence somebody",
+    "polish": "skazać kogoś",
+    "category": "LAW"
+  },
+  {
+    "english": "to prosecute",
+    "polish": "oskarżać / ścigać prawnie",
+    "category": "LAW"
+  },
+  {
+    "english": "standing regulations",
+    "polish": "obowiązujące przepisy",
+    "category": "LAW"
+  },
+  {
+    "english": "witness",
+    "polish": "świadek",
+    "category": "LAW"
+  },
+  {
+    "english": "complaint",
+    "polish": "skarga",
+    "category": "LAW"
+  },
+  {
+    "english": "to examine a witness",
+    "polish": "przesłuchiwać świadka",
+    "category": "LAW"
+  },
+  {
+    "english": "to complain",
+    "polish": "skarżyć się / użalać się",
+    "category": "LAW"
+  },
+  {
+    "english": "to hear a case",
+    "polish": "wysłuchać sprawy",
+    "category": "LAW"
+  },
+  {
+    "english": "cassation office",
+    "polish": "urząd kasacyjny",
+    "category": "LAW"
+  },
+  {
+    "english": "to file a motion",
+    "polish": "złożyć wniosek",
+    "category": "LAW"
+  },
+  {
+    "english": "request",
+    "polish": "prośba / wniosek",
+    "category": "LAW"
+  },
+  {
+    "english": "to sue somebody",
+    "polish": "pozwać kogoś",
+    "category": "LAW"
+  },
+  {
+    "english": "groundless",
+    "polish": "bezpodstawny",
+    "category": "LAW"
+  },
+  {
+    "english": "charge somebody with something",
+    "polish": "oskarżyć kogoś o coś / postawić zarzuty",
+    "category": "LAW"
+  },
+  {
+    "english": "justification",
+    "polish": "uzasadnienie",
+    "category": "LAW"
+  },
+  {
+    "english": "charges",
+    "polish": "zarzuty",
+    "category": "LAW"
+  },
+  {
+    "english": "to pronounce the sentence",
+    "polish": "ogłosić wyrok",
+    "category": "LAW"
+  },
+  {
+    "english": "bond with",
+    "polish": "zżyć się z / nawiązać więź z",
+    "category": "GENERAL"
+  },
+  {
+    "english": "aversion to",
+    "polish": "niechęć do",
+    "category": "GENERAL"
+  },
+  {
+    "english": "single people",
+    "polish": "samotni ludzie",
+    "category": "GENERAL"
+  },
+  {
+    "english": "divorcees",
+    "polish": "rozwodnicy",
+    "category": "GENERAL"
+  },
+  {
+    "english": "enthusiastic crowds",
+    "polish": "entuzjastyczne tłumy",
+    "category": "GENERAL"
+  },
+  {
+    "english": "sarcastic",
+    "polish": "sarkastyczny",
+    "category": "GENERAL"
+  },
+  {
+    "english": "get the wrong end of the stick",
+    "polish": "źle coś zrozumieć",
+    "category": "IDIOM"
+  },
+  {
+    "english": "get the impression",
+    "polish": "odnieść wrażenie",
+    "category": "IDIOM"
+  },
+  {
+    "english": "get on somebody’s nerves",
+    "polish": "działać komuś na nerwy",
+    "category": "IDIOM"
+  },
+  {
+    "english": "get the message",
+    "polish": "domyślić się aluzji / zrozumieć przekaz",
+    "category": "IDIOM"
+  },
+  {
+    "english": "get your own way",
+    "polish": "postawić na swoim",
+    "category": "IDIOM"
+  },
+  {
+    "english": "get anywhere with something",
+    "polish": "robić postępy w czymś",
+    "category": "IDIOM"
+  },
+  {
+    "english": "get a life",
+    "polish": "ogarnąć się / znaleźć sobie życie",
+    "category": "IDIOM"
+  },
+  {
+    "english": "get on like a house on fire",
+    "polish": "świetnie się dogadywać",
+    "category": "IDIOM"
+  },
+  {
+    "english": "get your act together",
+    "polish": "wziąć się w garść",
+    "category": "IDIOM"
+  },
+  {
+    "english": "get a move on",
+    "polish": "pospieszyć się",
+    "category": "IDIOM"
+  },
+  {
+    "english": "get on with",
+    "polish": "kontynuować / zabrać się za",
+    "category": "IDIOM"
+  },
+  {
+    "english": "get away with",
+    "polish": "ujść komuś na sucho",
+    "category": "IDIOM"
+  },
+  {
+    "english": "get behind with",
+    "polish": "mieć zaległości",
+    "category": "IDIOM"
+  },
+  {
+    "english": "get out of",
+    "polish": "wykręcić się od",
+    "category": "IDIOM"
+  },
+  {
+    "english": "get somebody down",
+    "polish": "przygnębiać kogoś",
+    "category": "IDIOM"
+  },
+  {
+    "english": "get over",
+    "polish": "otrząsnąć się po czymś",
+    "category": "IDIOM"
+  },
+  {
+    "english": "get through to somebody",
+    "polish": "dotrzeć do kogoś",
+    "category": "IDIOM"
+  },
+  {
+    "english": "get by on",
+    "polish": "utrzymać się za",
+    "category": "IDIOM"
+  },
+  {
+    "english": "get back to somebody",
+    "polish": "oddzwonić / wrócić do kogoś z odpowiedzią",
+    "category": "IDIOM"
+  },
+  {
+    "english": "get together with",
+    "polish": "zejść się / zacząć być razem",
+    "category": "IDIOM"
+  },
+  {
+    "english": "get into",
+    "polish": "dostać się do / zacząć karierę w",
+    "category": "IDIOM"
+  },
+  {
+    "english": "get your eyes tested",
+    "polish": "zbadać wzrok",
+    "category": "IDIOM"
+  },
+  {
+    "english": "get something delivered",
+    "polish": "mieć coś dostarczone",
+    "category": "IDIOM"
+  },
+  {
+    "english": "get something stolen",
+    "polish": "mieć coś skradzione",
+    "category": "IDIOM"
+  },
+  {
+    "english": "get hurt in a crash",
+    "polish": "zostać rannym w wypadku",
+    "category": "IDIOM"
+  },
+  {
+    "english": "get into trouble",
+    "polish": "wpaść w kłopoty",
+    "category": "IDIOM"
+  },
+  {
+    "english": "get hold of somebody",
+    "polish": "skontaktować się z kimś",
+    "category": "IDIOM"
+  },
+  {
+    "english": "get rid of",
+    "polish": "pozbyć się",
+    "category": "IDIOM"
+  },
+  {
+    "english": "get out of the way",
+    "polish": "zejść z drogi",
+    "category": "IDIOM"
+  },
+  {
+    "english": "get the wrong end of the stick",
+    "polish": "źle coś zrozumieć",
+    "category": "IDIOM"
+  },
+  {
+    "english": "get the chance",
+    "polish": "dostać szansę",
+    "category": "IDIOM"
+  },
+  {
+    "english": "get the joke",
+    "polish": "zrozumieć żart",
+    "category": "IDIOM"
+  },
+  {
+    "english": "get his own back",
+    "polish": "odegrać się / zemścić się",
+    "category": "IDIOM"
+  },
+  {
+    "english": "get to know somebody",
+    "polish": "poznać kogoś lepiej",
+    "category": "IDIOM"
+  },
+  {
+    "english": "get the impression",
+    "polish": "odnieść wrażenie",
+    "category": "IDIOM"
+  }
+]

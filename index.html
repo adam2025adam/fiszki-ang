@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <title>Angielskie Słownictwo – Fiszki</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div id="app">
+
+    <div id="cat-bar">
+      <button id="btn-category" class="cat-toggle-btn" aria-expanded="false" aria-controls="cat-panel">
+        Categories
+        <span id="cat-badge" class="cat-badge"></span>
+        <svg class="chevron" width="12" height="12" viewBox="0 0 12 12" aria-hidden="true">
+          <path d="M2 4l4 4 4-4" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </button>
+    </div>
+
+    <!-- Rozwijany panel kategorii -->
+    <div id="cat-panel" aria-hidden="true">
+      <div class="cat-panel-inner">
+        <div id="category-chips"></div>
+        <div class="cat-actions">
+          <button id="btn-all" class="action-btn">Wszystkie</button>
+          <button id="btn-none" class="action-btn">Wyczyść</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Obszar fiszki -->
+    <main id="card-area">
+      <div id="no-category-msg" class="hidden">
+        Wybierz co najmniej jedną kategorię
+      </div>
+
+      <div id="card-wrapper">
+        <div id="card" role="button" aria-label="Fiszka – kliknij aby odwrócić">
+          <div class="card-face card-front">
+            <span id="word-en"></span>
+            <span class="card-label">EN</span>
+          </div>
+          <div class="card-face card-back">
+            <span id="word-pl"></span>
+            <span class="card-label">PL</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Przyciski akcji -->
+    <footer id="controls">
+      <button id="btn-flip" class="ctrl-btn flip-btn">Reverse</button>
+      <button id="btn-next" class="ctrl-btn primary">Next</button>
+    </footer>
+
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
