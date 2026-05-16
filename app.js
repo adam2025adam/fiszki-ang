@@ -191,7 +191,7 @@ function showNextCard() {
   lastWord    = currentWord;
   currentWord = pickRandom(pool);
 
-  setFlipped(false);
+  resetFlipWithoutAnimation();
 
   wordEnEl.textContent = currentWord.english;
   wordPlEl.textContent = currentWord.polish;
@@ -209,43 +209,42 @@ function flipCard() {
   setFlipped(!isFlipped);
 }
 
+function resetFlipWithoutAnimation() {
+  cardEl.classList.add('no-flip-transition');
+  setFlipped(false);
+  requestAnimationFrame(() => requestAnimationFrame(() => {
+    cardEl.classList.remove('no-flip-transition');
+  }));
+}
+
 // ─── Animacja swipe (Web Animations API) ─────────────────────────────────────
 
 /**
- * Buduje string transformacji spójny z tym, co jest podczas przeciągania.
- * Używany zarówno dla keyframe startowego, jak i wyznaczania kierunku odlotu.
+ * Buduje string transformacji dla cardWrapper podczas przeciągania.
+ * Tylko 2D – flip obsługuje cardEl przez klasę .flipped.
  */
 function buildDragTransform(dx) {
   const rotate = dx * 0.07;
-  return isFlipped
-    ? `rotateY(180deg) translateX(${-dx}px) rotate(${-rotate}deg)`
-    : `translateX(${dx}px) rotate(${rotate}deg)`;
+  return `translateX(${dx}px) rotate(${rotate}deg)`;
 }
 
 /**
- * Animuje fiszkę poza ekran i ładuje następną.
+ * Animuje cardWrapper poza ekran i ładuje następną fiszkę.
  * @param {string} dir        - 'left' lub 'right'
  * @param {number|null} fromDx - aktualne przesunięcie palca (null = kliknięcie przycisku)
  */
 function swipeOut(dir, fromDx = null) {
   cardEl.style.pointerEvents = 'none';
 
-  // Punkt startowy animacji: bieżąca pozycja fiszki
-  const fromTransform = fromDx !== null
-    ? buildDragTransform(fromDx)
-    : (isFlipped ? 'rotateY(180deg)' : 'none');
+  // Punkt startowy: bieżąca pozycja wrappera
+  const fromTransform = fromDx !== null ? buildDragTransform(fromDx) : 'none';
 
-  // Punkt docelowy: poza ekranem, z lekkim obrotem
-  const exitPx  = (window.innerWidth + 300) * (dir === 'left' ? -1 : 1);
-  const exitRot = dir === 'left' ? -12 : 12;
-  const toTransform = isFlipped
-    ? `rotateY(180deg) translateX(${-exitPx}px) rotate(${-exitRot}deg)`
-    : `translateX(${exitPx}px) rotate(${exitRot}deg)`;
+  // Punkt docelowy: poza ekranem
+  const exitPx      = (window.innerWidth + 300) * (dir === 'left' ? -1 : 1);
+  const exitRot     = dir === 'left' ? -12 : 12;
+  const toTransform = `translateX(${exitPx}px) rotate(${exitRot}deg)`;
 
-  // Wyczyść ewentualny inline-style z przeciągania – WAAPI przejmuje kontrolę
-  cardEl.style.transform = '';
-
-  const anim = cardEl.animate(
+  const anim = cardWrapper.animate(
     [
       { transform: fromTransform, opacity: 1 },
       { transform: toTransform,   opacity: 0 },
@@ -254,23 +253,21 @@ function swipeOut(dir, fromDx = null) {
   );
 
   anim.onfinish = () => {
-    // Zatwierdź końcowy stan jako inline-style, potem skasuj animację WAAPI
     anim.commitStyles();
     anim.cancel();
 
-    // Zresetuj, zanim pojawi się nowa fiszka
-    cardEl.style.transform      = '';
-    cardEl.style.opacity        = '0'; // tymczasowo ukryj podczas zamiany treści
-    cardEl.style.pointerEvents  = '';
+    cardWrapper.style.transform     = '';
+    cardWrapper.style.opacity       = '0'; // tymczasowo ukryj podczas zamiany treści
+    cardEl.style.pointerEvents      = '';
 
     showNextCard();
 
     // Slide-in nowej fiszki po dwóch klatkach (żeby przeglądarka zaaplikowała nową treść)
     requestAnimationFrame(() => requestAnimationFrame(() => {
-      cardEl.style.opacity = '';
-      cardEl.classList.add('anim-slide-in');
-      cardEl.addEventListener('animationend', () => {
-        cardEl.classList.remove('anim-slide-in');
+      cardWrapper.style.opacity = '';
+      cardWrapper.classList.add('anim-slide-in');
+      cardWrapper.addEventListener('animationend', () => {
+        cardWrapper.classList.remove('anim-slide-in');
       }, { once: true });
     }));
   };
@@ -306,8 +303,8 @@ function onPointerMove(e) {
 
   if (!isDragging) return;
 
-  // Przesunięcie i lekki obrót podczas przeciągania
-  cardEl.style.transform = buildDragTransform(dx);
+  // Swipe obsługuje cardWrapper; cardEl odpowiada tylko za flip
+  cardWrapper.style.transform = buildDragTransform(dx);
 }
 
 function onPointerUp(e) {
@@ -319,14 +316,18 @@ function onPointerUp(e) {
   cardEl.classList.remove('dragging');
 
   if (wasGesture && Math.abs(dx) >= SWIPE_THRESHOLD) {
-    // ── Swipe: kontynuuj ruch z miejsca puszczenia ──
-    // Nie resetuj style.transform – swipeOut startuje z aktualnej pozycji
+    // Swipe: cardWrapper kontynuuje ruch z miejsca puszczenia
     swipeOut(dx < 0 ? 'left' : 'right', dx);
+  } else if (wasGesture) {
+    // Krótki drag poniżej progu: powrót na środek z animacją transition
+    cardWrapper.style.transition = 'transform 0.35s ease';
+    cardWrapper.style.transform  = '';
+    cardWrapper.addEventListener('transitionend', () => {
+      cardWrapper.style.transition = '';
+    }, { once: true });
   } else {
-    // ── Krótki drag lub tap ──
-    // Wyczyszczenie inline-style przy aktywnej transition = animacja powrotu na środek
-    cardEl.style.transform = '';
-    if (!wasGesture) flipCard(); // tap bez przeciągania = odwróć
+    // Czysty tap bez przeciągania: odwróć fiszkę
+    flipCard();
   }
 
   pointerStart   = null;
@@ -336,7 +337,7 @@ function onPointerUp(e) {
 
 function onPointerCancel() {
   cardEl.classList.remove('dragging');
-  cardEl.style.transform = '';
+  cardWrapper.style.transform = '';
   pointerStart   = null;
   pointerCurrent = null;
   isDragging     = false;

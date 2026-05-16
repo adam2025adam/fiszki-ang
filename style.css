@@ -204,6 +204,7 @@ body {
   max-width: 360px;
   perspective: 1200px;
   touch-action: none;
+  will-change: transform;
 }
 
 /* ===== Flip card ===== */
@@ -217,7 +218,6 @@ body {
   border-radius: var(--radius-card);
   user-select: none;
   -webkit-tap-highlight-color: transparent;
-  will-change: transform;
 }
 
 #card.flipped {
@@ -227,6 +227,11 @@ body {
 /* Applied during swipe drag */
 #card.dragging {
   transition: none;
+}
+
+/* Applied during automatic flip reset – prevents unwanted rotate animation */
+#card.no-flip-transition {
+  transition: none !important;
 }
 
 .card-face {
@@ -275,7 +280,7 @@ body {
   to   { transform: translateX(0);    opacity: 1; }
 }
 
-#card.anim-slide-in { animation: slide-in 0.3s ease-out; }
+#card-wrapper.anim-slide-in { animation: slide-in 0.3s ease-out; }
 
 /* ===== Controls ===== */
 #controls {
